@@ -1,0 +1,86 @@
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 {
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+  margin-left: 0;
+  text-align: left;
+}
+
+#header-nav > .container {
+  width: 100%;
+  padding: 0;
+  background-color: rgb(153, 153, 153);
+  border-top: black solid 3px;
+  border-bottom: black solid 3px;
+}
+
+.navbar-header {
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+}
+
+.navbar-default button.navbar-toggle {
+  border-color: black;
+  padding: 8px;
+}
+
+.navbar-default .navbar-toggle span.icon-bar {
+  height: 4px;
+  background-color: black;
+}
+
+#ourMenu {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 20px;
+}
+
+#nav-list {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+#nav-list > li {
+  border-top: #888 solid 1px;
+  border-bottom: #888 solid 1px;
+}
+
+#nav-list a {
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
+
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.bg-gray {
+  background-color: grey;
+  padding: 6px;
+}
+
+p > span > a{
+    color: blue;
+    text-decoration: underline;
+    margin-left:8px ;
+}
+/* Small devices (landscape phones, 360px and up)*/
+@media (min-width: 360px) {
+  .bg-gray {
+    margin-bottom: 20px;
+  }
+}
