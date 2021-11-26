@@ -3,7 +3,7 @@
 
   var speakWord = "Good Bye";
 
-  byeSpeaker.speak = function speak (name) {
+  byeSpeaker.speak = function (name) {
     console.log(speakWord + " " + name);
   };
 
